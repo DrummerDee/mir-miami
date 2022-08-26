@@ -49,7 +49,7 @@
       align-items:center;
     }
   .homeBody .text {
-      /* background-image: url('../Assets/background.png'); */
+      background-image: url('../Assets/background.png');
       background-repeat: no-repeat;
       background-size: cover;
       height: 100vh;

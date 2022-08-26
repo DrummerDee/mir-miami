@@ -6,10 +6,10 @@ function Services() {
     return (
         <main className="servicesBody">
                 <div className = 'container' >     
-                    <h2> Exterior</h2>
+                    <h2> Inerior</h2>
             </div>
                 <div className='container'>
-                    <h2> Interior</h2>
+                    <h2> Exterior</h2>
             </div>
         </main>
     )
