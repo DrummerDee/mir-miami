@@ -1,0 +1,23 @@
+.servicesBody{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 2rem auto;
+}
+  .container{
+      border: 0.1rem solid rgb(219, 218, 218);
+      display: flex;
+      width: 95%;
+      height: 90%;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 0.7rem 0 rgb(219, 218, 218);
+      color: black;
+  }
+  #mow{
+    overflow: hidden;
+    width: 120%;
+    height: 100%;
+  }
