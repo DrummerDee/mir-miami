@@ -16,8 +16,8 @@ function Services() {
                         <li>Plumbing</li>
                         <li> Doors</li>
                         <li> Floors </li>
-                        <li> Ceilings </li>
-                        <li> Electrical </li>
+                        <li> Ceilings </span>
+                        <span> Electrical </span>
                         </ul>
                 </div>
                 </div>

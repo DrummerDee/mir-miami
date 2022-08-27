@@ -35,7 +35,7 @@
     text-align: center;
     position: absolute;
     background-color: #ffff;
-    width: 13rem;
+    width: 30rem;
     height: 15rem;
     box-shadow: 0 0.3rem 1rem 0 rgba(0,0,0,0.2);
     padding: 1.5rem 0.5rem;
@@ -43,7 +43,6 @@
   }
   .dropdown:hover .dropdown__content {
     display: block;
-    transiton: ease 0.3s all;
   }
   .dropdown h2:hover{
     cursor: pointer;

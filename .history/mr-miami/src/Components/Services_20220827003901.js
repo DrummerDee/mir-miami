@@ -8,17 +8,15 @@ function Services() {
         <main className="servicesBody">
             <div className='container' >
                 <div>
+                     
                     <div className='dropdown'>
-                    <h2> Interior</h2>
                     <div className='dropdown__content'>
-                        <ul>
-                        <li>Painting</li>
-                        <li>Plumbing</li>
-                        <li> Doors</li>
-                        <li> Floors </li>
-                        <li> Ceilings </li>
-                        <li> Electrical </li>
-                        </ul>
+                        <span>Painting</span>
+                        <span>Plumbing</span>
+                        <span> Doors</span>
+                        <span> Floors </span>
+                        <span> Ceilings </span>
+                        <span> Electrical </span>
                 </div>
                 </div>
                     </div>

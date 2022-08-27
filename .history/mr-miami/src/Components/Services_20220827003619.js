@@ -7,22 +7,17 @@ function Services() {
     return (
         <main className="servicesBody">
             <div className='container' >
-                <div>
-                    <div className='dropdown'>
-                    <h2> Interior</h2>
-                    <div className='dropdown__content'>
-                        <ul>
-                        <li>Painting</li>
-                        <li>Plumbing</li>
-                        <li> Doors</li>
-                        <li> Floors </li>
-                        <li> Ceilings </li>
-                        <li> Electrical </li>
-                        </ul>
-                </div>
-                </div>
-                    </div>
+                <h2 className='dropdown'> Interior</h2>
                 <img src={Tile} alt='broken brown colored tiles' />
+                    <div className='dropdown__content'>
+                        <span>Painting</span>
+                        <span>Plumbing</span>
+                        <span> Doors</span>
+                        <span> Floors </span>
+                        <span> Ceilings </span>
+                        <span> Electrical </span>
+                        </div>
+                </div>
             </div>
             <div className='container'>
                 <h2> Exterior</h2>

@@ -43,7 +43,6 @@
   }
   .dropdown:hover .dropdown__content {
     display: block;
-    transiton: ease 0.3s all;
   }
   .dropdown h2:hover{
     cursor: pointer;
