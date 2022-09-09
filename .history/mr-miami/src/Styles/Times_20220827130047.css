@@ -1,0 +1,120 @@
+.Modal,
+.Overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 72%;
+    overflow: hidden;
+    gap: 0.5rem;
+    padding: 1rem 0 0 1rem;
+    margin: 1rem 1rem 0 1rem;
+    overflow: auto;
+    justify-content: center;
+
+}
+
+.times {
+    display: column;
+    flex-wrap: wrap;
+    width: 45%;
+    box-shadow: 0 0.1rem 0.2rem rgb(#888888, 0.3);
+    border: 0.3rem dashed yellow;
+}
+
+.Overlay {
+    background: rgba(49, 49, 49, 0.8);
+}
+
+.Content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f1f1f1;
+    height: 88%;
+    border-radius: 3px;
+    border: 0.3rem solid rgba(49, 49, 49, 0.8);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.Close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    padding: 0.5rem 0.8rem;
+    cursor: pointer;
+}
+
+.container > div {
+    height: 6%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.4rem;
+}
+.container > div:first-child{
+    margin-top: 4rem;
+}
+.container > div:last-child{
+    margin-bottom: 1rem;
+}
+
+.container > div > button {
+    background-color: rgb(196, 196, 198);
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.container > div > button:hover {
+    background-color: #3a54c9;
+    transition: all 0.3s;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.text {
+    width: 100%;
+    height: 6%;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+#confirm {
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    border-radius: 0.8rem;
+    background-color: rgb(196, 196, 198);
+    position: fixed;
+    margin-top: 0.5rem;
+    top: 33rem;
+}
+
+#confirm a {
+    color: black;
+    text-decoration: none;
+}
+
+#confirm:hover {
+    background-color: #3a54c9;
+    transition: all 0.3s;
+    color: #FFF;
+    cursor: pointer;
+}

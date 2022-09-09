@@ -1,0 +1,20 @@
+
+  lawn mow: Photo by <a href="https://unsplash.com/@danielwatsondesign?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Watson</a> on <a href="https://unsplash.com/s/photos/lawn-mower?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+// On services page make it where when linked is click it displays a list of items (use dropdown menu):
+ - Exterior 
+    * Pressure Washing 
+    * Doors
+    * windows 
+    * Decks 
+    * Roofing 
+    * Landscaping 
+// Fix 'selected date' under Gallery page 
+//Redo gallery page, add in Lazy Loading
+// Make mobile responsive
+// Ensure that it's accessabile 
+// Email that sends slot confirmation 
+// Create database to hold times and show when one is avaiable (Postgres)
+
+              
+            

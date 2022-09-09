@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=PT+Sans&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans','IBM Plex Sans', sans-serif;
+}
+
+/* Gallery Page */
+.body > h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border: 0.3rem solid orange;
+}
+.frame {
+  margin: 3rem 3rem;
+  width: 100%;
+  height: 100%;
+  background: rgb(24, 24, 226);
+  padding: 2em 1.5em 2em 1.5em;
+}
+.top:hover{
+  opacity: 1;
+}
+.bottom{
+  position: absolute;
+  opacity: 0;
+}
+.bottom:hover{
+  opacity: 1;
+  left: 0;
+}
+
+
+
