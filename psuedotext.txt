@@ -18,3 +18,37 @@
 // Make a bookMe/Confirmation to redirect users after they pay checkbox, confirm time
               
             
+
+             <div className='email__input'>
+      <h1> Please enter your email for confirmation details </h1>
+      <h2>Your consultaton is set to {event} {props.date.toDateString()}</h2>
+      <input type='text' placeholder='Please Enter Email' id='email__text' onChange={handleChange}/> {/* */}
+      </div>
+
+      {isBooked ? 
+      (
+     
+      ) :
+
+
+       {/* <div className='Modal' id='modal'>
+        <div onClick={toggleModal} className='Overlay'></div>
+        <div className='Content'>
+        </div>
+        <div className="times Content">
+          <div className='container'> 
+          {isBooked ? 
+            (
+            <div className='email__input'>
+            <h1> Please enter your email for confirmation details </h1>
+            <h2>Your consultaton is set to {event} {props.date.toDateString()}</h2>
+            <input type='text' placeholder='Please Enter Email' id='email__text' onChange={handleChange}/> {/* */}
+            </div>
+            ) :
+            <TimeSlots displayInfo={displayInfo} refreshPage={refreshPage}/>
+            }
+          </div>
+         <input type='submit' value='Book Consultation' id='confirm' onClick={(e) => email(e)}/> 
+          {/* <a href='https://book.stripe.com/5kA6q88bGfbO2TCbII' target='_blank' rel='nonreferrer' */}
+        </div>
+      </div> */}
