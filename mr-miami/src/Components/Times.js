@@ -29,7 +29,9 @@ function Times(props) {
 
   //reload 
   const refreshPage = () => {
-    window.location.reload();
+    // window.location.reload();
+    setBooked(false)
+    setModal(modal)
   }
 
 //change for email input 
@@ -48,6 +50,7 @@ const handleChange = (e) => {
           {isBooked ? 
             (
             <div className='email__input'>
+            <button className='Close' onClick={refreshPage}> X </button>
             <h1> Please enter your email for confirmation details </h1>
             <h2>Your consultaton is set to {event} {props.date.toDateString()}</h2>
             <input type='text' placeholder='Please Enter Email' id='email__text' onChange={handleChange}/> {/* */}
