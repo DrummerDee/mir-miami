@@ -118,3 +118,10 @@
     color: #FFF;
     cursor: pointer;
 }
+.email__input{
+    bottom: 2;
+    
+}
+#email__text{
+    padding: 2rem 2rem;
+}

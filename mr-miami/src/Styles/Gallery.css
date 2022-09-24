@@ -9,7 +9,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.3rem solid orange;
     height: 70vh;
   }
   .containers{
@@ -47,7 +46,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.3rem solid green;
     height: 80vh;
   }
   .containers__two{

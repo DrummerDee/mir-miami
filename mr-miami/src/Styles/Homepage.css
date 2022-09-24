@@ -44,7 +44,7 @@
 }
 
 .nav li:hover {
-  border-top: white 0.2rem solid;
+  border-top: white 0.1rem solid;
   transition: all 0.3s ease-out;
   padding: 0.25rem;
 }
